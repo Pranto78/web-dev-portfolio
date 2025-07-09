@@ -165,7 +165,7 @@ main section{
 
 .resume-container{
     display: flex;
-    gap: 25px;
+    gap: 30px;
 }
 
 .experience-description , .experience-sub-title{
@@ -179,4 +179,38 @@ main section{
 }
 .resume-download-cv{
     margin-top: 50px;
+}
+
+.secction-title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+.section-title-2{
+
+    font-size: 30px;
+
+}
+
+/* footer part */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 8px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: 1px solid black;
 }
